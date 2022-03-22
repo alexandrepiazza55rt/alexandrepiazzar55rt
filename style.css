@@ -1,0 +1,142 @@
+body{
+     background-image: url("imgfundo.jpg");
+     background-size: cover;
+     color: white;
+     font-family: "Goudy Bookletter 1911", sans-serif;
+     max-width: 1200px;
+     margin: 10 auto;
+     padding: 15px;
+}
+header{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+li{
+     display: inline-block;
+     margin: 20px;
+}
+
+a{
+     color: white;
+     margin: 20px;
+}
+a:hover{
+     color: red
+}
+
+main{
+     display: flex;
+     flex-direction: row;
+     justify-content: row;
+     justify-content: space-between;
+     margin: 10px;
+}
+img{
+     width: 450px;
+     height: 450px;
+     background-color: #000000;
+     color: #fff; 
+     border-radius: 50%;
+     border-width: 200px;
+     object-fit: cover;
+     box-shadow: 8px 50px 70px 0 #000000;
+     transition: all 3s;
+     margin-top: 10px;
+     border-color: #EC9A29;
+     border: 3px solid #E05215;
+}
+
+form{
+     display: flex;
+     flex-direction: column;
+     width: 80%
+}
+p{
+     max-width: 500px;
+     line-height: 30px;
+}
+
+input{
+     align-self: center;
+     margin-top: 20px;
+     height: 30px;
+     border-radius: 20px;
+     font-size: 20px;
+     padding: 20px;
+     border: none;
+
+}
+
+#bnt-enviar {
+     background: #143642;
+     text-align: center;
+     line-height: 2px;
+     color: #FFF;
+}
+
+.btn.enviar:hover {
+     background: #143642;
+}
+}
+
+h2, h4{
+     text-align: justify;
+}
+h3{
+    color: #BC412B
+}
+p{
+     text-align: center;
+     font-style: oblique;
+}
+h1{
+     color: #E05215;
+     text-align: center;
+     font-weight: bold;
+}
+#end{
+    color: #E05215;
+    font-weight: bold;
+}
+footer {
+     position: center;
+     border-radius: 20px;
+     opacity: 0.4;
+     bottom: 0;
+     background-color: #143642;
+     color: #FFF;
+     width: 100%;
+     height: 30px;    
+     text-align: center;
+     line-height: 30px;
+}
+#textoroll{
+    width: 500px;
+    height: 200px;
+    overflow-y: scroll;
+    line-height: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1D1E18;
+  border-radius: 15px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #E05215;
+  border-radius: 20px;
+  border: 3px solid #30332E;
+}
+#ano{
+    text-align: center;
+}
